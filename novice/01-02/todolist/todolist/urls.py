@@ -17,5 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('task.urls')),
+    path('', include('home.urls')),
+    path('task/', include('task.urls')),
+    path('pegawai/', include('pegawai.urls')),
+    path('bahan/', include('bahan.urls')),
+    
+    
 ]

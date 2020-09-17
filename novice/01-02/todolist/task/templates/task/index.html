@@ -28,9 +28,8 @@
                     <input type="text" name="harga" class="form-control"/>
                   </div>
 
-                <button type="submit" class="btn btn-primary mt-1">Tambah</button>
+                <button type="submit" class="btn btn-primary mt-1" >Tambah</button>
                 </form>
-
                 <table class="table table-striped">
                       <tr>
                         <th scope="col">#</th>
@@ -46,9 +45,9 @@
                         <td>{{d.menu}}</td>
                         <td>{{d.harga}}</td>
                         <td>
-                            <a class="btn btn-sm btn-success" href="/{{d.id}}">Detail</a>
-                            <a class="btn btn-sm btn-warning" href="/{{d.id}}/update">update</a>
-                            <a class="btn btn-sm btn-danger" href="/{{d.id}}/delete">Delete</a>
+                            <a class="btn btn-sm btn-success" href="/task/{{d.id}}">Detail</a>
+                            <a class="btn btn-sm btn-warning" href="/task/{{d.id}}/update">update</a>
+                            <a class="btn btn-sm btn-danger" href="/task/{{d.id}}/delete">Delete</a>
 
                         </td>
                       </tr>
